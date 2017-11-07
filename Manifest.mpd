@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="urn:mpeg:dash:schema:mpd:2011"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+	profiles="urn:mpeg:dash:profile:isoff-live:2011"
+	type="static"
+	mediaPresentationDuration="PT1M0.0S"
+	minBufferTime="PT3.7S">
+	<ProgramInformation>
+	</ProgramInformation>
+	<Period start="PT0.0S">
+		<AdaptationSet contentType="video" segmentAlignment="true" bitstreamSwitching="true">
+			<Representation id="0" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2500000" width="616" height="360">
+				<BaseURL>Manifest-stream0.m4s</BaseURL>
+				<SegmentList timescale="1000000" duration="3753750" startNumber="1">
+					<Initialization range="0-788" />
+					<SegmentURL mediaRange="789-130913" indexRange="789-840" />
+					<SegmentURL mediaRange="130914-341085" indexRange="130914-130965" />
+					<SegmentURL mediaRange="341086-469993" indexRange="341086-341137" />
+					<SegmentURL mediaRange="469994-529001" indexRange="469994-470045" />
+					<SegmentURL mediaRange="529002-632986" indexRange="529002-529053" />
+					<SegmentURL mediaRange="632987-651585" indexRange="632987-633038" />
+					<SegmentURL mediaRange="651586-815291" indexRange="651586-651637" />
+					<SegmentURL mediaRange="815292-898578" indexRange="815292-815343" />
+					<SegmentURL mediaRange="898579-953827" indexRange="898579-898630" />
+					<SegmentURL mediaRange="953828-1068692" indexRange="953828-953879" />
+					<SegmentURL mediaRange="1068693-1124271" indexRange="1068693-1068744" />
+					<SegmentURL mediaRange="1124272-1164027" indexRange="1124272-1124323" />
+				</SegmentList>
+			</Representation>
+			<Representation id="2" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2500000" width="632" height="368">
+				<BaseURL>Manifest-stream2.m4s</BaseURL>
+				<SegmentList timescale="1000000" duration="3753750" startNumber="1">
+					<Initialization range="0-788" />
+					<SegmentURL mediaRange="789-128839" indexRange="789-840" />
+					<SegmentURL mediaRange="128840-341830" indexRange="128840-128891" />
+					<SegmentURL mediaRange="341831-473433" indexRange="341831-341882" />
+					<SegmentURL mediaRange="473434-532780" indexRange="473434-473485" />
+					<SegmentURL mediaRange="532781-638047" indexRange="532781-532832" />
+					<SegmentURL mediaRange="638048-656611" indexRange="638048-638099" />
+					<SegmentURL mediaRange="656612-822358" indexRange="656612-656663" />
+					<SegmentURL mediaRange="822359-909208" indexRange="822359-822410" />
+					<SegmentURL mediaRange="909209-965552" indexRange="909209-909260" />
+					<SegmentURL mediaRange="965553-1080274" indexRange="965553-965604" />
+					<SegmentURL mediaRange="1080275-1136434" indexRange="1080275-1080326" />
+					<SegmentURL mediaRange="1136435-1176618" indexRange="1136435-1136486" />
+				</SegmentList>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet contentType="audio" segmentAlignment="true" bitstreamSwitching="true">
+			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.5" bandwidth="48000" audioSamplingRate="48000">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<BaseURL>Manifest-stream1.m4s</BaseURL>
+				<SegmentList timescale="1000000" duration="3753750" startNumber="1">
+					<Initialization range="0-739" />
+					<SegmentURL mediaRange="740-37199" indexRange="740-791" />
+					<SegmentURL mediaRange="37200-83552" indexRange="37200-37251" />
+					<SegmentURL mediaRange="83553-106103" indexRange="83553-83604" />
+					<SegmentURL mediaRange="106104-144089" indexRange="106104-106155" />
+					<SegmentURL mediaRange="144090-174823" indexRange="144090-144141" />
+					<SegmentURL mediaRange="174824-190472" indexRange="174824-174875" />
+					<SegmentURL mediaRange="190473-236282" indexRange="190473-190524" />
+					<SegmentURL mediaRange="236283-255856" indexRange="236283-236334" />
+					<SegmentURL mediaRange="255857-279112" indexRange="255857-255908" />
+					<SegmentURL mediaRange="279113-325155" indexRange="279113-279164" />
+					<SegmentURL mediaRange="325156-348131" indexRange="325156-325207" />
+					<SegmentURL mediaRange="348132-369983" indexRange="348132-348183" />
+				</SegmentList>
+			</Representation>
+			<Representation id="3" mimeType="audio/mp4" codecs="mp4a.40.5" bandwidth="48000" audioSamplingRate="48000">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<BaseURL>Manifest-stream3.m4s</BaseURL>
+				<SegmentList timescale="1000000" duration="3753750" startNumber="1">
+					<Initialization range="0-739" />
+					<SegmentURL mediaRange="740-37199" indexRange="740-791" />
+					<SegmentURL mediaRange="37200-83552" indexRange="37200-37251" />
+					<SegmentURL mediaRange="83553-106103" indexRange="83553-83604" />
+					<SegmentURL mediaRange="106104-144089" indexRange="106104-106155" />
+					<SegmentURL mediaRange="144090-174823" indexRange="144090-144141" />
+					<SegmentURL mediaRange="174824-190472" indexRange="174824-174875" />
+					<SegmentURL mediaRange="190473-236282" indexRange="190473-190524" />
+					<SegmentURL mediaRange="236283-255856" indexRange="236283-236334" />
+					<SegmentURL mediaRange="255857-279112" indexRange="255857-255908" />
+					<SegmentURL mediaRange="279113-325155" indexRange="279113-279164" />
+					<SegmentURL mediaRange="325156-348131" indexRange="325156-325207" />
+					<SegmentURL mediaRange="348132-369983" indexRange="348132-348183" />
+				</SegmentList>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
