@@ -12,7 +12,7 @@
 	<Period start="PT0.0S">
 		<AdaptationSet contentType="video" segmentAlignment="true" bitstreamSwitching="true">
 			<Representation id="0" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2500000" width="616" height="360">
-				<BaseURL>https://github.com/guagua0105/media/blob/master/Manifest-stream0.m4s</BaseURL>
+				<BaseURL>https://github.com/guagua0105/media/blob/master/Manifest-stream0.m4s?raw=true</BaseURL>
 				<SegmentList timescale="1000000" duration="3753750" startNumber="1">
 					<Initialization range="0-788" />
 					<SegmentURL mediaRange="789-130913" indexRange="789-840" />
@@ -30,7 +30,7 @@
 				</SegmentList>
 			</Representation>
 			<Representation id="2" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2500000" width="632" height="368">
-				<BaseURL>https://github.com/guagua0105/media/blob/master/Manifest-stream2.m4s</BaseURL>
+				<BaseURL>https://github.com/guagua0105/media/blob/master/Manifest-stream2.m4s?raw=true</BaseURL>
 				<SegmentList timescale="1000000" duration="3753750" startNumber="1">
 					<Initialization range="0-788" />
 					<SegmentURL mediaRange="789-128839" indexRange="789-840" />
@@ -51,7 +51,7 @@
 		<AdaptationSet contentType="audio" segmentAlignment="true" bitstreamSwitching="true">
 			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.5" bandwidth="48000" audioSamplingRate="48000">
 				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<BaseURL>https://github.com/guagua0105/media/blob/master/Manifest-stream1.m4s</BaseURL>
+				<BaseURL>https://github.com/guagua0105/media/blob/master/Manifest-stream1.m4s?raw=true</BaseURL>
 				<SegmentList timescale="1000000" duration="3753750" startNumber="1">
 					<Initialization range="0-739" />
 					<SegmentURL mediaRange="740-37199" indexRange="740-791" />
@@ -70,7 +70,7 @@
 			</Representation>
 			<Representation id="3" mimeType="audio/mp4" codecs="mp4a.40.5" bandwidth="48000" audioSamplingRate="48000">
 				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<BaseURL>https://github.com/guagua0105/media/blob/master/Manifest-stream3.m4s</BaseURL>
+				<BaseURL>https://github.com/guagua0105/media/blob/master/Manifest-stream3.m4s?raw=true</BaseURL>
 				<SegmentList timescale="1000000" duration="3753750" startNumber="1">
 					<Initialization range="0-739" />
 					<SegmentURL mediaRange="740-37199" indexRange="740-791" />
